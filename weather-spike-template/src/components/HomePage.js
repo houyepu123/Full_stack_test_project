@@ -1,5 +1,5 @@
 import React from 'react'
-import WeatherCardComponent from './WeatherCardComponent'
+import WeatherCardComponent from './WeatherCard'
 import axios from 'axios'
 import UserPage from "./UserPage"
 import "../CSS/WeatherCardComponent.css"
