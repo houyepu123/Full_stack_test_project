@@ -1,0 +1,80 @@
+.user-panel {
+    position: fixed;
+    float: left;
+    width: 270px;
+    height: 100%;
+
+    background: #AECDFA;
+    box-shadow: 2px 0px 4px rgba(0, 0, 0, 0.25);
+}
+
+.user-panel--heading {
+    position: flex;
+    width: 250px;
+
+    padding: 10px;
+    padding-top: 20px;
+    padding-bottom: 5px;
+
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 58px;
+
+    color: #434242;    
+}
+
+.user-panel--add-user {
+    background: #E1E1E1;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.user-card {
+    position: flex;
+    vertical-align: middle;
+    padding: 5px;
+    background: #EBF2FE;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.user-card:hover {
+    background: rgba(202, 242, 255, 0.75);
+    cursor: pointer;
+}
+
+.user-card.selected {    
+    background: rgb(169, 234, 255);
+}
+
+.user-card--heading {
+    display: inline-flex;
+
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 38px;
+
+    color: #000000;    
+}
+
+.user-card--bin {
+    width: 40px;
+    height: 40px;
+    border-radius: 25%;
+    display: flex;
+    float: right;
+    align-items: center;
+}
+
+.user-card--bin > img {
+    width: 40px;
+    filter: opacity(0.4);
+}
+
+.user-card--bin:hover {
+    background: rgba(126, 220, 250, 0.75);
+}

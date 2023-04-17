@@ -1,0 +1,66 @@
+.weather-column {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.weekly-forecast-body {
+    display: flex;
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 35px;
+    text-align: center;
+    
+    max-width: 960px;
+    height: 360px;
+
+    color: #000000;
+    overflow-x: scroll;
+}
+
+
+
+.forecast{
+    max-width:80vw;
+}
+
+.weekly-forecast-title{
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 46px;
+    text-align: center;
+
+}
+
+.card{
+    background: #F8F8F8;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+    width: 150px;
+    height: 320px;
+}
+
+.card-info {
+    font-size: 12pt;
+    padding-bottom: 2px;
+    margin: 0px;
+}
+
+.card-header {
+    width: 100%;
+    flex-direction: column;
+    display: inline-flex;
+}
+
+.star-icon{
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    vertical-align: top;
+    top: 20px;
+    right: 20px;
+    cursor: pointer;
+    float: right;
+}
